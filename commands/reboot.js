@@ -4,7 +4,7 @@ const exec = require('child_process').exec;
  * */
 function reboot()
 {
-    const child = exec("cd ~ ; cd Desktop/miketheknightbot ; git pull origin master ", function (error, stdout, stderr) {
+    const child = exec("cd ~ ; cd Desktop/MikeTheKnightBot ; git pull origin master ", function (error, stdout, stderr) {
         if (error !== null) {
             console.log('exec error: ' + error);
         }
