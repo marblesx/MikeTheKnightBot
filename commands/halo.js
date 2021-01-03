@@ -261,7 +261,7 @@ const maps = [
     const lib = require('lib');
     const mcc = lib.halo.mcc['@0.0.11'];
     const Discord = require('discord.js');
-    const common = require('../Common/common');
+    const common = require('../common/common');
     let _bot;
     function haloMethod(args, bot) {
         _bot = bot;
